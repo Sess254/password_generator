@@ -51,7 +51,7 @@ button {
   
 }
 
-#password-el {
+#password-elOne, #password-elTwo {
     display: flex;
     justify-content: center;
     align-items: center;
