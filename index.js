@@ -8,7 +8,7 @@ const passwordElTow = document.getElementById('password-elTwo');
 function generatePassword() {
     let passwordOne = "";
     let passwordTwo = "";
-    for (let i = 0; i < 13; i++) {
+    for (let i = 0; i < 15; i++) {
         let randomIndexOne = Math.floor(Math.random() * characters.length);
         let randomIndexTwo = Math.floor(Math.random() * characters.length);
         passwordOne += characters[randomIndexOne];
